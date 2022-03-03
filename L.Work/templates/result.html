@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h3>Your Question:</h3>
+    <p>{{input}}</p>
+
+    <h3>Identified topics:</h3>
+    <h6>Check if relevant</h6>
+
+
+    {% for result in value1 %}
+    <tr>
+        <input type="checkbox" id="input1" name="input1" value="input1">
+        <label for="input1">{{result}}</label><br>
+    </tr>
+    {% endfor %}
+
+    <h3>Similar Questions:</h3>
+    {% for result2 in value2 %}
+    <tr>
+        {% autoescape false %} <p> {{result2}} </p> {% endautoescape %}<br>
+    </tr>
+    {% endfor %}
+</html>
