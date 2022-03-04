@@ -205,10 +205,27 @@ Using significant tags found within the corpus of most popular tags we are able 
 ### Answers
 Since our answer data did not explicitly define tags of related content to classify each post, we began by creating our own analysis of the text. 
 
-******* LUKE ADD HOW YOU EXTRACTED THE GENERAL TOPICS *******
+
 The general topics found within answer responses are most often of the type HTML or TCP/IP domains. Through examination of the data we see that the top three types of content within answer responses was found to be HTML, TCP/IP Domains, and methods and variables. We wanted to identify who was answering questions the most and which of these individual accounts were the most positive of the entire set, these user accounts can be found in the dash board figure title: Top 10 User Accounts by Answers. An interesting detail was found upon creation of visualizations in that Answer data does not contain link type responses. The code used to generate labels for both answers and comments is identical and should classify under three categories, yet no response are found as link type within the answer data set. 
 
 
+# Stack OverFlow Dashboard
+
+## /J.Work/StackDash.twb
+
+The required data files found in /J.Work/Data2/FinalData folder have been zipped due to size, please unzip files: 
+
+  -adata.csv.zip
+  -adataCombined.csv.zip
+  -cdataCombined.csv.zip
+
+Once unzipped you will be able to access/view the dashboard.
+
+![](Images/Im1.PNG)
+
+![](Images/im2.png)
+
+![](Images/im3.png)
 
 
 
